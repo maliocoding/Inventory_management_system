@@ -3,7 +3,7 @@
 A sleek, modern inventory management system built with Next.js 15, React 19, Tailwind CSS v4, and SQLite. This system features real-time stock tracking, categorization, transaction ledgers, location management, and role-based auditing—all wrapped in a premium, glassmorphism-inspired UI.
 
 ![Dashboard Preview](./public/dashboard-preview.png)
-> *Note: Add an image of your dashboard to `public/dashboard-preview.png` to display it here.*
+
 
 ## Features
 
