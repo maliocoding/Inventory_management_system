@@ -36,7 +36,7 @@ You need [Node.js](https://nodejs.org/) (v18 or newer) and `npm` installed.
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/inventory-management-system.git
+git clone https://github.com/maliocoding/Inventory_management_system.git
 cd inventory-management-system
 npm install
 ```
