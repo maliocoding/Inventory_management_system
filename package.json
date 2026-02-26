@@ -1,0 +1,45 @@
+{
+  "name": "warehouse-inventory-manager-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:reset": "npm run db:migrate && npm run db:seed"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.3",
+    "better-auth": "^1.4.19",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.1",
+    "lucide-react": "^0.542.0",
+    "next": "^16.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.7.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@better-auth/cli": "^1.4.19",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "drizzle-kit": "^0.31.9",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^16.0.0",
+    "tailwindcss": "^4.1.12",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.2"
+  }
+}
