@@ -1,9 +1,31 @@
 # Warehouse Inventory Manager
 
-A sleek, modern inventory management system built with Next.js 15, React 19, Tailwind CSS v4, and SQLite. This system features real-time stock tracking, categorization, transaction ledgers, location management, and role-based auditing—all wrapped in a premium, glassmorphism-inspired UI.
+A sleek, modern inventory management system built with Next.js 15, React 19, Tailwind CSS v4, and SQLite. This system features real-time stock tracking, categorization, transaction ledgers, location management, and role-based auditing - all wrapped in a premium, glassmorphism-inspired UI.
 
 ![Dashboard Preview](./public/dashboard-preview.png)
 
+## Feature Pictures
+
+<table>
+  <tr>
+    <td><strong>Dashboard</strong><br><img src="./public/dashboard-preview.png" alt="Dashboard overview" width="100%"></td>
+    <td><strong>Product Management</strong><br><img src="./public/feature-previews/products-preview.png" alt="Product management screen" width="100%"></td>
+  </tr>
+  <tr>
+    <td><strong>Categories</strong><br><img src="./public/feature-previews/categories-preview.png" alt="Category management screen" width="100%"></td>
+    <td><strong>Locations</strong><br><img src="./public/feature-previews/locations-preview.png" alt="Location management screen" width="100%"></td>
+  </tr>
+  <tr>
+    <td><strong>Transaction Ledger</strong><br><img src="./public/feature-previews/ledger-preview.png" alt="Transaction ledger screen" width="100%"></td>
+    <td><strong>Audit Logs</strong><br><img src="./public/feature-previews/audit-preview.png" alt="Audit log screen" width="100%"></td>
+  </tr>
+</table>
+
+To regenerate feature screenshots automatically, run:
+
+```bash
+npm run screenshots:features
+```
 
 ## Features
 
