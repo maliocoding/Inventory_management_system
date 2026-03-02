@@ -21,12 +21,6 @@ A sleek, modern inventory management system built with Next.js 15, React 19, Tai
   </tr>
 </table>
 
-To regenerate feature screenshots automatically, run:
-
-```bash
-npm run screenshots:features
-```
-
 ## Features
 
 - **Dashboard**: High-level overview of total stock, recent movements, volume trends (powered by Recharts), and reason breakdown.
